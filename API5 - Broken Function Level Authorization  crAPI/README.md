@@ -1,33 +1,4 @@
 # API-Testing-Documentary
-upload a vedio in my profile
-![alt text](image.png)
-we can change video , change video Name and Share vedio with community  
-![alt text](image-1.png)
-but can't delete the video 
-so let's start the burpsuit 
-change the vedio name
-![alt text](image-2.png)
-now send it to repeater
-![alt text](image-3.png)
-![alt text](image-4.png)
- 
-Change put request to Options request to know that which request we can 
-![alt text](image-5.png)
-so we can see that we can able to request  GET,HEAD,PUT,DELETE,OPTIONS
-
-so lets change Options to delet
-![alt text](image-6.png)
-We can't the delete the video due to it only able to deleted my admin 
-so lets privilege acceleration 
-change user to admin
-![alt text](image-7.png)
-![alt text](image-8.png)
-
-Here’s a polished version of your `README.md` file based on the content you've provided:
-
----
-
-# API-Testing-Documentary
 
 This document demonstrates testing and exploring the functionality of an API for managing user videos, with a focus on profile video upload, modification, sharing, and deletion.
 
@@ -123,10 +94,6 @@ This API testing revealed critical security considerations:
 - Role-based access control (RBAC) needs to be validated server-side to avoid privilege escalation vulnerabilities.
 
 ---
-
-Let me know if you'd like to expand or modify this further!
-
-
 
 
 
