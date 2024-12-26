@@ -7,7 +7,7 @@ This repository serves as a comprehensive guide and documentation for testing AP
 Each folder is dedicated to a specific API vulnerability or testing methodology, containing detailed documentation, examples, and test cases.
 
 ### Topics Covered
-1. [**API1 - Broken Object Level Authorization (IDOR) crAPI**](./API1%20-%20Broken%20Object%20Level%20Authorization%20IDOR%20crAPI)  
+1. [**API1 - Broken Object Level Authorization IDOR crAPI**](./API1%20-%20Broken%20Object%20Level%20Authorization%20IDOR%20crAPI)  
    Explores insecure direct object reference vulnerabilities and mitigation techniques.
 
 2. [**API2 - Broken User Authentication crAPI**](./API2%20-%20Broken%20User%20Authentication%20crAPI)  
@@ -25,13 +25,13 @@ Each folder is dedicated to a specific API vulnerability or testing methodology,
 6. [**API6 - Mass Assignment crAPI**](./API6%20-%20Mass%20Assignment%20crAPI)  
    Examines vulnerabilities arising from unsanitized user input and automated tools to detect them.
 
-7. [**API7 - Injection (NoSQL/SQL) crAPI**](./API7%20-%20Injection%20NOSQL%20Injection%20SQL%20Injection%20crAPI)  
+7. [**API7 - Injection (NoSQLSQL) crAPI**](./API7%20-%20Injection%20%28NoSQLSQL%29%20crAPI)  
    Investigates injection attacks on APIs and the best practices to prevent them.
 
-8. [**API8 - Broken Access Control (SSRF) crAPI**](./API8%20-%20Broken%20Access%20Control%20SSRF%20crAPI)  
+8. [**API8 - Broken Access Control SSRF crAPI**](./API8%20-%20Broken%20Access%20Control%20SSRF%20crAPI)  
    Explains Server-Side Request Forgery vulnerabilities and mitigation techniques.
 
-9. [**API9 - Hacking JSON Web Tokens (JWT) crAPI**](./API9%20-%20Hacking%20JSON%20Web%20Tokens%20JWT%20crAPI)  
+9. [**API9 - Hacking JSON Web Tokens JWT crAPI**](./API9%20-%20Hacking%20JSON%20Web%20Tokens%20JWT%20crAPI)  
    Demonstrates techniques for exploiting JWT-based authentication and securing it.
 
 10. [**Setup**](./Setup)  
