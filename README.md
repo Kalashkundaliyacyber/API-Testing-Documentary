@@ -7,7 +7,7 @@ This repository serves as a comprehensive guide and documentation for testing AP
 Each folder is dedicated to a specific API vulnerability or testing methodology, containing detailed documentation, examples, and test cases.
 
 ### Topics Covered
-1. [**API1 - Broken Object Level Authorization IDOR crAPI**](./API1%20-%20Broken%20Object%20Level%20Authorization%20IDOR%20crAPI)  
+1. [**API1 - Broken Object Level Authorization IDOR crAPI**]
    Explores insecure direct object reference vulnerabilities and mitigation techniques.
 
 2. [**API2 - Broken User Authentication crAPI**](./API2%20-%20Broken%20User%20Authentication%20crAPI)  
