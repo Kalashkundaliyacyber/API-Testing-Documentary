@@ -7,35 +7,34 @@ This repository serves as a comprehensive guide and documentation for testing AP
 Each folder is dedicated to a specific API vulnerability or testing methodology, containing detailed documentation, examples, and test cases.
 
 ### Topics Covered
-1. [**API1 - Broken Object Level Authorization IDOR crAPI**]
+### 1. API1 - Broken Object Level Authorization IDOR crAPI
    Explores insecure direct object reference vulnerabilities and mitigation techniques.
 
-2. [**API2 - Broken User Authentication crAPI**](./API2%20-%20Broken%20User%20Authentication%20crAPI)  
+### 2. API2 - Broken User Authentication crAPI
    Focuses on identifying and resolving authentication issues in APIs.
 
-3. [**API3 - Excessive Data Exposure crAPI**](./API3%20-%20Excessive%20Data%20Exposure%20crAPI)  
+### 3. API3 - Excessive Data Exposure crAPI
    Discusses scenarios where APIs expose more data than necessary and how to address them.
 
-4. [**API4 - Rate Limiting & Lack of Resources crAPI**](./API4%20-%20Rate%20Limiting%20%26%20Lack%20of%20Resources%20crAPI)  
+### 4. API4 - Rate Limiting & Lack of Resources crAPI
    Covers rate-limiting mechanisms to protect APIs from resource exhaustion.
 
-5. [**API5 - Broken Function Level Authorization crAPI**](./API5%20-%20Broken%20Function%20Level%20Authorization%20crAPI)  
+### 5. API5 - Broken Function Level Authorization crAPI  
    Details improper function-level authorization and how to test for it.
 
-6. [**API6 - Mass Assignment crAPI**](./API6%20-%20Mass%20Assignment%20crAPI)  
+### 6. API6 - Mass Assignment crAPI 
    Examines vulnerabilities arising from unsanitized user input and automated tools to detect them.
 
-7. [**API7 - Injection (NoSQLSQL) crAPI**](./API7%20-%20Injection%20%28NoSQLSQL%29%20crAPI)  
+### 7. API7 - Injection (NoSQLSQL) crAPI  
    Investigates injection attacks on APIs and the best practices to prevent them.
 
-8. [**API8 - Broken Access Control SSRF crAPI**](./API8%20-%20Broken%20Access%20Control%20SSRF%20crAPI)  
+### 8. API8 - Broken Access Control SSRF crAPI  
    Explains Server-Side Request Forgery vulnerabilities and mitigation techniques.
 
-9. [**API9 - Hacking JSON Web Tokens JWT crAPI**](./API9%20-%20Hacking%20JSON%20Web%20Tokens%20JWT%20crAPI)  
+### 9. API9 - Hacking JSON Web Tokens JWT crAPI 
    Demonstrates techniques for exploiting JWT-based authentication and securing it.
 
-10. [**Setup**](./Setup)  
-    Instructions for setting up testing environments and required tools.
+
 
 
 ## Setup
