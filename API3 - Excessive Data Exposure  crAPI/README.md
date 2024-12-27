@@ -1,21 +1,4 @@
 # API-Testing-Documentary
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
-![alt text](image-4.png)
-
-
-
-
-
-
-
-
-
-
-
-# API-Testing-Documentary
 
 This repository documents API testing processes, focusing on identifying and analyzing vulnerabilities such as **Excessive Data Exposure**. The project demonstrates how API endpoints can inadvertently reveal sensitive information through improper data handling.
 
@@ -91,15 +74,3 @@ To replicate and test the documented scenarios, you'll need:
 
 ## Contributions
 Contributions are welcome! If you want to add more API vulnerabilities or improve this documentary, feel free to fork the repo and submit a pull request.
-
-
-
-
-
-
-
-
-
-
-
-
