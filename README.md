@@ -34,9 +34,6 @@ Each folder is dedicated to a specific API vulnerability or testing methodology,
 ### 9. API9 - Hacking JSON Web Tokens JWT crAPI 
    Demonstrates techniques for exploiting JWT-based authentication and securing it.
 
-
-
-
 ## Setup
 To get started:
 1. Clone the repository:  
