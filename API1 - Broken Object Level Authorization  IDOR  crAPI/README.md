@@ -36,24 +36,24 @@ API security is critical for modern web applications. This project demonstrates 
 
 ### Application Interface
 1. **Vehicle Details Page**  
-   ![alt text](image.png) 
+   ![alt text](./Assets/image.png) 
    Displays vehicle information and maps integration.
 
 2. **User Data List**  
-   ![alt text](image-2.png)  
+   ![alt text](./Assets/image-2.png)  
    Lists usernames, roles, and other details exposed due to inadequate access control.
 
 ### Testing Analysis
 3. **Burp Suite Testing**  
-   ![alt text](image-1.png)  
+   ![alt text](./Assets/image-1.png)  
    Demonstrates request-response interception and token manipulation.
 
 4. **Vulnerability Exploitation**  
-   ![alt text](image-4.png) 
+   ![alt text]./Assets/(image-4.png) 
    Shows the process of sending unauthorized requests using modified tokens.
 
 5. **Request and Response Flow**  
-   ![alt text](image-3.png)  
+   ![alt text](./Assets/image-3.png)  
    Highlights weak API endpoints exploited to retrieve sensitive data.
 
 ---

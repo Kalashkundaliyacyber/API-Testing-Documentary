@@ -12,7 +12,7 @@ This repository documents API testing processes, focusing on identifying and ana
 ## Screenshots
 
 ### Vehicle Details
-![Vehicle Details](image.png)
+![Vehicle Details](./Assets/image.png)
 
 The vehicle details page demonstrates how APIs can expose sensitive data, such as:
 - Vehicle Identification Number (VIN)
@@ -20,22 +20,22 @@ The vehicle details page demonstrates how APIs can expose sensitive data, such a
 - Model year and fuel type
 
 ### Forums Section
-![Forums](image-1.png)
+![Forums](./Assets/image-1.png)
 
 The forums section displays:
 - User comments and posts
 - Timestamps associated with activities
 
 ### Detailed User Data
-![User Details](image-2.png)
+![User Details](./Assets/image-2.png)
 
 This page includes:
 - User profiles
 - Associated comments and actions
 
 ### API Debugging Console
-![API Console](image-3.png)
-![API Response Details](image-4.png)
+![API Console](./Assets/image-3.png)
+![API Response Details](./Assets/image-4.png)
 
 The API debugging console showcases:
 - API requests and responses

@@ -29,8 +29,8 @@ This document showcases the use of a brute force attack on an OTP authentication
 - **Objective**: Exploit OTP-based authentication through brute force.
 - The interface prompts for an OTP and password. The attack begins with inserting random OTPs and passwords to test server response.
 
-![Step 1](image.png)
-![Step 2](image-1.png)
+![Step 1](./Assets/image.png)
+![Step 2](./Assets/image-1.png)
 
 ---
 
@@ -38,8 +38,8 @@ This document showcases the use of a brute force attack on an OTP authentication
 - Use tools like Burp Suite to send crafted requests to the server.
 - Configure the Intruder module to automate payload insertion for brute force.
 
-![Payload Setup](image-3.png)
-![Payload Options](image-4.png)
+![Payload Setup](./Assets/image-3.png)
+![Payload Options](./Assets/image-4.png)
 
 ---
 
@@ -47,16 +47,16 @@ This document showcases the use of a brute force attack on an OTP authentication
 - Begin the attack by launching the payloads.
 - Monitor the server's responses for discrepancies, such as changes in content length (e.g., 507 to 488), which indicate success.
 
-![Attack in Progress](image-6.png)
-![Response Differences](image-7.png)
+![Attack in Progress](./Assets/image-6.png)
+![Response Differences](./Assets/image-7.png)
 
 ---
 
 ### Post-Attack Analysis
 - Once the attack succeeds, verify the password change by logging in with the new credentials.
 
-![Verification](image-8.png)
-![Success](image-9.png)
+![Verification](./Assets/image-8.png)
+![Success](./Assets/image-9.png)
 
 ---
 
