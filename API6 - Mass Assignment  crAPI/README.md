@@ -72,6 +72,7 @@ APIs are a crucial part of modern applications but are often prone to misconfigu
    - The order history reflects manipulated transactions, such as multiple items being purchased with incorrect credits.
 
    ![alt text](image-5.png)
+   ![alt text](image-6.png)
 
 ---
 
