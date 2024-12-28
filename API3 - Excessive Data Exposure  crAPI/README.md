@@ -63,14 +63,5 @@ To replicate and test the documented scenarios, you'll need:
 - A REST API testing tool like **Postman** or **cURL**
 - Browser developer tools (e.g., Chrome DevTools)
 
-### Steps:
-1. Clone this repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Open the included images and review the documented vulnerabilities.
-3. Analyze the JSON responses for sensitive data exposure.
-4. Implement the recommended security measures in your own APIs.
-
 ## Contributions
 Contributions are welcome! If you want to add more API vulnerabilities or improve this documentary, feel free to fork the repo and submit a pull request.

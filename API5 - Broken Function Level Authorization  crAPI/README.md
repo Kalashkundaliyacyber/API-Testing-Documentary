@@ -22,12 +22,12 @@ This document demonstrates testing and exploring the functionality of an API for
 ### Upload a Video
 A user can upload a video to their profile, as shown below:
 
-![Video Upload](image.png)
+![Video Upload](./Assets/image.png)
 
 ### Modify Video Name and Share
 Users have the ability to change the video name or share the video with the community.
 
-![Change Video Name and Share](image-1.png)
+![Change Video Name and Share](./Assets/image-1.png)
 
 ### Video Deletion Limitations
 Videos cannot be deleted directly by users due to restrictions in permissions.
@@ -44,8 +44,8 @@ Using **Burp Suite**, modify the video name via a PUT request:
 ### Step 2: Send Request to Repeater
 Forward the request to Burp Suite's Repeater tab for further testing:
 
-![Repeater Testing](image-3.png)  
-![Repeater Payload](image-4.png)
+![Repeater Testing](./Assets/image-3.png)  
+![Repeater Payload](./Assets/image-4.png)
 
 ---
 
@@ -54,7 +54,7 @@ Forward the request to Burp Suite's Repeater tab for further testing:
 ### Step 3: Change to OPTIONS Request
 Change the PUT request to an **OPTIONS** request to identify the allowed HTTP methods:
 
-![Options Request](image-5.png)
+![Options Request](./Assets/image-5.png)
 
 **Result**: The server supports the following methods:
 - `GET`
@@ -70,7 +70,7 @@ Change the PUT request to an **OPTIONS** request to identify the allowed HTTP me
 ### Step 4: Modify OPTIONS to DELETE
 Change the request type to **DELETE** to attempt video deletion:
 
-![Delete Request](image-6.png)
+![Delete Request](./Assets/image-6.png)
 
 **Result**: Deletion fails as only admins are authorized to delete videos.
 
@@ -81,8 +81,8 @@ Change the request type to **DELETE** to attempt video deletion:
 ### Step 5: Change User Role to Admin
 To bypass the restriction, attempt privilege escalation by modifying the user role to "admin":
 
-![Privilege Escalation Attempt 1](image-7.png)  
-![Privilege Escalation Attempt 2](image-8.png)
+![Privilege Escalation Attempt 1](./Assets/image-7.png)  
+![Privilege Escalation Attempt 2](./Assets/image-8.png)
 
 **Outcome**: This action may lead to unauthorized video deletion if the server does not properly validate roles. The test demonstrates the importance of robust security practices on the server.
 

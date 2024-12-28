@@ -58,15 +58,6 @@ To replicate and test the documented scenarios, you'll need:
 - **Burp Suite** for API testing and debugging.
 - A REST API testing tool like **Postman** or **cURL**.
 
-### Steps:
-1. Clone this repository:
-   ```bash
-   git clone <repository-url>
-   ```
-2. Use Burp Suite to test API endpoints and analyze rate-limiting issues.
-3. Review the provided screenshots and analyze the API request/response cycles.
-4. Implement the recommended rate-limiting strategies in your own APIs.
-
 ## Contributions
 Contributions are welcome! If you want to add more API vulnerabilities or improve this documentary, feel free to fork the repo and submit a pull request.
 
