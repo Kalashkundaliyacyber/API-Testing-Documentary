@@ -1,14 +1,6 @@
 # API-Testing-Documentary
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
 
-
-
-# API-Testing-Documentary
-
-![alt text](./Assests/image.png)
+![alt text](./Assets/image.png)
 
 This repository documents API testing processes, focusing on identifying and analyzing vulnerabilities such as **Rate Limiting and Lack of Resources** in the crAPI platform. The project demonstrates how improper resource handling can lead to API abuse and denial of service.
 
