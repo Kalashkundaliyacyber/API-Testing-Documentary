@@ -8,13 +8,13 @@
 
 # API-Testing-Documentary
 
-![alt text](image.png)
+![alt text](./Assests/image.png)
 
 This repository documents API testing processes, focusing on identifying and analyzing vulnerabilities such as **Rate Limiting and Lack of Resources** in the crAPI platform. The project demonstrates how improper resource handling can lead to API abuse and denial of service.
 
 ## Overview
 
-![alt text](image-1.png)
+![alt text](./Assets/image-1.png)
 
 ### Key Features Documented:
 - **Contact Mechanic Form:** Demonstrates how lack of rate limiting can allow repeated requests, leading to potential abuse.
@@ -44,7 +44,7 @@ This screenshot demonstrates how repeated requests to the API can overload the s
 
 ## Vulnerabilities Explored
 
-![alt text](image-2.png)
+![alt text](./Assets/image-2.png)
 
 ### API4 - Lack of Resources & Rate Limiting
 **Lack of Resources & Rate Limiting** vulnerabilities occur when APIs fail to restrict the frequency of requests, leading to server overload or abuse. Key takeaways:
@@ -57,7 +57,7 @@ This screenshot demonstrates how repeated requests to the API can overload the s
 3. **Throttling Mechanisms:** Add throttling to prevent abuse while maintaining server stability.
 4. **Logging and Monitoring:** Continuously monitor API requests to identify abuse patterns.
 
-![alt text](image-3.png)
+![alt text](./Assets/image-3.png)
 
 ## Getting Started
 
