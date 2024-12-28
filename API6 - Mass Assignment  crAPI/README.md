@@ -1,21 +1,3 @@
-# API-Testing-Documentary
-let's buy the seat 
-![alt text](image-2.png)
-i buy a seat and after that it to repeacter 
-![alt text](image.png)
-
-if i can change value from 1 to -1 then we can get the money 
-![alt text](image-1.png)
-![alt text](image-3.png)
-
-if the we increse the the value to -10 then the credit will increase to -100
-![alt text](image-4.png)
-
-![alt text](image-5.png)
-
-it is my pass order 
-![alt text](image-6.png)
-
 # API Testing Documentary
 
 This documentation highlights the testing process for identifying vulnerabilities in an API, focusing on **Mass Assignment** and **API6 vulnerabilities** in crAPI. The following demonstrates the tools, techniques, and results of testing.
@@ -56,6 +38,8 @@ APIs are a crucial part of modern applications but are often prone to misconfigu
 - **Balance Before Purchase**: $100
 - **Purchase Action**: Buying a seat for $10 reduces the balance to $90.
 
+![alt text](image-2.png)
+
 ---
 
 ### Manipulating Requests
@@ -63,8 +47,12 @@ APIs are a crucial part of modern applications but are often prone to misconfigu
 1. **Modifying Purchase Value**:
    - By changing the API request parameters, such as altering the value from `1` to `-1`, the balance increases instead of decreasing.
 
+   ![alt text](image.png)
+
 2. **Incrementing Value**:
    - Adding arbitrary values (e.g., +10) through the request directly alters the user's balance.
+
+   ![alt text](image-1.png)
 
 ---
 
@@ -73,11 +61,17 @@ APIs are a crucial part of modern applications but are often prone to misconfigu
 1. **Balance After Exploitation**:
    - The balance reverts to $100 or increases further based on manipulation.
 
+   ![alt text](image-3.png)
+
 2. **Shop View**:
    - Items and credits appear consistent, but the underlying manipulation is reflected in the system's credit calculations.
 
+   ![alt text](image-4.png)
+
 3. **Past Orders**:
    - The order history reflects manipulated transactions, such as multiple items being purchased with incorrect credits.
+
+   ![alt text](image-5.png)
 
 ---
 
@@ -139,7 +133,3 @@ Mass Assignment vulnerabilities occur when an attacker adds extra parameters to 
 This documentation is for **educational and ethical hacking purposes only**. Always test APIs in authorized environments and obtain permissions before conducting vulnerability assessments.
 
 ---
-
-
-
-
