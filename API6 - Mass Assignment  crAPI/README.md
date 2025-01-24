@@ -38,7 +38,7 @@ APIs are a crucial part of modern applications but are often prone to misconfigu
 - **Balance Before Purchase**: $100
 - **Purchase Action**: Buying a seat for $10 reduces the balance to $90.
 
-![alt text](image-2.png)
+![alt text](./Assets/image-2.png)
 
 ---
 
@@ -47,12 +47,12 @@ APIs are a crucial part of modern applications but are often prone to misconfigu
 1. **Modifying Purchase Value**:
    - By changing the API request parameters, such as altering the value from `1` to `-1`, the balance increases instead of decreasing.
 
-   ![alt text](image.png)
+   ![alt text](./Assets/image.png)
 
 2. **Incrementing Value**:
    - Adding arbitrary values (e.g., +10) through the request directly alters the user's balance.
 
-   ![alt text](image-1.png)
+   ![alt text](./Assets/image-1.png)
 
 ---
 
@@ -61,18 +61,18 @@ APIs are a crucial part of modern applications but are often prone to misconfigu
 1. **Balance After Exploitation**:
    - The balance reverts to $100 or increases further based on manipulation.
 
-   ![alt text](image-3.png)
+   ![alt text](./Assets/image-3.png)
 
 2. **Shop View**:
    - Items and credits appear consistent, but the underlying manipulation is reflected in the system's credit calculations.
 
-   ![alt text](image-4.png)
+   ![alt text](./Assets/image-4.png)
 
 3. **Past Orders**:
    - The order history reflects manipulated transactions, such as multiple items being purchased with incorrect credits.
 
-   ![alt text](image-5.png)
-   ![alt text](image-6.png)
+   ![alt text](./Assets/image-5.png)
+   ![alt text](./Assets/image-6.png)
 
 ---
 
