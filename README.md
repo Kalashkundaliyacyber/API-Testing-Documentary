@@ -25,15 +25,6 @@ Each folder is dedicated to a specific API vulnerability or testing methodology,
 ### 6. API6 - Mass Assignment crAPI 
    Examines vulnerabilities arising from unsanitized user input and automated tools to detect them.
 
-### 7. API7 - Injection (NoSQLSQL) crAPI  
-   Investigates injection attacks on APIs and the best practices to prevent them.
-
-### 8. API8 - Broken Access Control SSRF crAPI  
-   Explains Server-Side Request Forgery vulnerabilities and mitigation techniques.
-
-### 9. API9 - Hacking JSON Web Tokens JWT crAPI 
-   Demonstrates techniques for exploiting JWT-based authentication and securing it.
-
 ## Setup
 To get started:
 1. Clone the repository:  
